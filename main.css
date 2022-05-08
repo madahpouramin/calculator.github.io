@@ -57,20 +57,13 @@ button{
                     5px 5px 12px rgba(0,0,0,.16);
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:500px){
     .container{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        width: 70%;
     }
     .calculator{
-        background-color: #ecf0f3;
-        padding: 15px;
-        border-radius: 30px;
-        box-shadow: inset 5px 5px 12px #ffffff,
-                      5px 5px 12px rgba(0,0,0,.16);
-        display: grid;
-        grid-template-columns: repeat(4,68px);
+        display: block;
+        width: 99%;
     }
 }
